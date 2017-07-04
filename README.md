@@ -109,4 +109,5 @@
     
 ## 其他
 
-- [Jelon前端小站](http://jelon.top)
+- http://blogxinxiucan.sh1.newtouch.com/
+# hexo-xin-blog
