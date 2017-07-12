@@ -24,8 +24,26 @@
     %>
     <title><% if (title) { %><%= title %> | <% } %><%= config.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" >
+   <!--
     <meta name="keywords" content="<%- theme.SEO.keywords %>" >
     <meta name="description" content="<%- theme.SEO.description %>" >
+  -->
+
+   <% if (page.keywords){ %>
+    <meta name="keywords" content="<%= page.keywords %>,<%- theme.SEO.keywords %>">
+<% } else if (config.keywords){ %>
+    <meta name="keywords" content="<%= config.keywords %>">
+<%} else{ %>
+    <meta name="keywords" content="<%- theme.SEO.keywords %>" >
+
+<% } %>
+<% if (page.description){ %>
+    <meta name="description" content="<%= page.description %>">
+<% } else if (config.description){ %>
+    <meta name="description" content="<%= config.description %>">
+<%} else{ %>
+    <meta name="description" content="<%= theme.SEO.description %>">
+<%} %>
 
     <% if (theme.rss) { %>
     <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml" >
@@ -44,9 +62,7 @@
     <script>var yunModuleEnv = true;</script>
     <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
     <% } %>
-
-
-
+        
 <script>
 var _hmt = _hmt || [];
 (function() {

@@ -13,22 +13,22 @@ menu:
     link: /
     icon: icon-home
   lab:
-    name: 实验室
+    name: 归档
     link: /lab/
-    icon: icon-lab
+    icon: 
   about:
     name: 关于
     link: /about/
-    icon: icon-about
+    icon: 
   comment:
     name: 留言
     link: /comment/
-    icon: icon-comment
+    icon: 
 
 #----------------------------
 # 副导航
 #----------------------------
-subnav:
+lab:
   github: "#"
   weibo: "#"
   rss: "#"
@@ -101,7 +101,7 @@ head_links:
         link: http://blog.csdn.net/u012743772
       1:
         name: Github
-        link: https://github.com/LouisCan
+        link: https://github.com
       last:
         name: 百度统计
         link: http://tongji.baidu.com/web/welcome/login
