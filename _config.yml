@@ -13,7 +13,7 @@ menu:
     link: /
     icon: icon-home
   lab:
-    name: 归档
+    name: 大数据
     link: /lab/
     icon: 
   about:
@@ -24,6 +24,7 @@ menu:
     name: 留言
     link: /comment/
     icon: 
+
 
 #----------------------------
 # 副导航

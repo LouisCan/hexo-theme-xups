@@ -1,11 +1,7 @@
 <footer class="footer">
     &copy;
     Copyright 2017-2020 辛修灿个人博客  联系我：xiucanxin@163.com
-   |   
-   <span id="busuanzi_container_site_pv">
-    本站总访问量<span id="busuanzi_value_site_pv"></span>次
-    </span>
- 
+    
     <a href="<%- url_for() %>"个人博客</a>
 </footer>
 <a class="back-to-top" href="javascript:void(0)" title="返回顶部"> <i
