@@ -108,11 +108,11 @@ head_links:
         link: http://tongji.baidu.com/web/welcome/login
     sub:
       sinaweibo:
-        name: 新浪微博
-        link: http://weibo.com/234828841
+        name: 简书
+        link: http://www.jianshu.com/u/082645cc19c6
       qqweibo:
-        name: Facebook
-        link: https://www.facebook.com/xin.xiucan
+        name: 博客园
+        link: http://www.cnblogs.com/xinxiucan
 #----------------------------
 # SEO
 #----------------------------
